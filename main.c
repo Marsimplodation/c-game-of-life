@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
-#include <sys/time.h>   // for gettimeofday()
-#include <errno.h>  
-#include "main.h"
+#include <errno.h>
 #include <math.h>
 #include <string.h>
+#include "main.h"
 
 int main(int argc, char **argv) {
     if(argc != 2) {
