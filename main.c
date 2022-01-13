@@ -131,10 +131,8 @@ void printField(int field[fieldSize][fieldSize]) {
                 fieldString[strPos++]="█"[1];
                 fieldString[strPos++]="█"[2];
             }
-            //fieldString[strPos++]=0x20;//space
         }
-        fieldString[strPos++]='\n';//space
-        //printf("\n");
+        fieldString[strPos++]='\n';//new line
     }
 
     //add NULL character at the end
@@ -143,7 +141,7 @@ void printField(int field[fieldSize][fieldSize]) {
     printf(fieldString);
     //free up memory
     free(fieldString);
-    //sleep 32 miliseconds
+    //sleep 16 miliseconds
     msleep(16);
 }
 
