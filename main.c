@@ -266,7 +266,7 @@ int msleep(long msec)
 }
 
 /**
- * @brief retruns the number of places an integer has
+ * @brief returns the number of digits of an integer
  * 
  * @param n 
  * @return int 
